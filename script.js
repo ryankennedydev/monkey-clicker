@@ -4,7 +4,7 @@
 
 
 let somar_pontos = document.getElementById("pontuar");
-let pontos = 20000
+let pontos = 0
 
 somar_pontos.addEventListener("click", function(){
 pontos ++
