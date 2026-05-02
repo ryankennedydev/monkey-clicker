@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bananalândia Clicker</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+
+
+</head>
+<body>
+    <nav>
+        <img class="logo"src="/macacos/macaco.png" alt="">
+        <ul>
+            <li id="buttonstatus"><button>Status</button></li>
+        </ul>
+    </nav>
+    
+    <section class="paginainicial">
+
+        <div class="tudo">
+            <h1 class="titulo">🐒 Macaco Clicker</h1>
+            <p>Pontos: <span id="contador">0</span></p>
+            <p>Rank: <span id="rank"></span></p>
+
+            <button class="butaomacaco">
+                <img id="macaco"src="/macacos/macaco.png" alt="">
+
+
+
+        </div>
+        <div class="botoes_interacao">
+                    <button id="pontuar">🐒 Clicar</button>
+                    <button id="skin">🔓 Skin Lendária (10000)</button>
+                    <button id="upgrade_button">➕ Upgrade (+25 por clique) - <span id="upgrade_price">20</span></button>
+                    
+                </div>
+        
+        <div class="autoclick">
+            <p>AutoClick:</p>
+            <button id="button_autoclick">🤖 Comprar AutoClick (- 200)</button>
+        </div>
+    </section>
+
+    <div id="tela">
+    <button id="fechar">FECHAR</button>
+    
+    <div class="telas_status">
+        <div class="rank">
+            <img src="/telas_image/rank.png" alt="">
+            <p>Pontos por segundo: <span id="total_upgrades">0</span></p>
+
+
+        </div>
+
+    </div>
+    
+    
+    </section>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
